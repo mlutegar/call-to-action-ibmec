@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
-import { Top } from "./Style";
+import { HeaderContainer, Logo, LogoImage, DownloadButton } from "./Style";
 
 const Header = () => (
-  <Top>
-    <Link to="/">Home</Link>
-    <Link to="/fotos">Fotos</Link>
-    <Link to="/atletas">Atletas</Link>
-    
-    { window.sessionStorage.getItem('accessToken')
-    ? <Link to="/logout">Logout</Link>
-    : <Link to="/login">Login</Link>
-    }
-    
-  </Top>
+  <HeaderContainer>
+    <Logo>
+      <Link to="/">
+        <LogoImage
+          src="/imagens/logo_call-to-action_edito.jpg"
+          alt="Call To Action"
+        />
+      </Link>
+    </Logo>
+    <DownloadButton>
+      Baixar último e-book
+    </DownloadButton>
+  </HeaderContainer>
 )
 
 export default Header;

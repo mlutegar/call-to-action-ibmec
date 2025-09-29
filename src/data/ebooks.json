@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Call To Action",
+    "year": "2025",
+    "semester": "1",
+    "coverUrl": "/assets/covers/call-to-action-2025-1.png",
+    "pdfUrl": "/assets/pdfs/call-to-action-2025-1.pdf",
+    "description": "Revista com os melhores TCCs do primeiro semestre de 2025 do Curso de Publicidade IBMEC",
+    "pages": 120,
+    "authors": [
+      "Ana Cristina de Souza Harris",
+      "Beatriz Albuquerque Macieira Lattari",
+      "Bernardo Praguer Rocha Ferreira",
+      "Carolina de Alcantara Assis",
+      "Giulia Fabbriziani Borges",
+      "Guilherme Ferreira Vianna",
+      "Maria Eduarda Vieira Cahet",
+      "Nicole Lopes Miranda"
+    ],
+    "publishDate": "2025-07-15"
+  }
+]
